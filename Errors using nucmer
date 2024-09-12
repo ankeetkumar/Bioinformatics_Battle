@@ -1,0 +1,16 @@
+This is an error from nucmer v3.1 
+
+Command used 
+nucmer --forward -p nucmer $ref $input
+
+Error
+1: PREPARING DATA
+
+USAGE: /usr/lib/mummer/prenuc  [options]  <reference>
+
+Try '/usr/lib/mummer/prenuc -h' for more information.
+ERROR: prenuc returned non-zero
+
+To solve this error simply remove the spaces in your folder or file name
+Error: /Changed Folders/Arctic fox
+Error free: /Changed_Folders/Arctic_fox

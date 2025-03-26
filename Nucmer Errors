@@ -1,6 +1,6 @@
 This is an error from Nucmer v3.1 
 
-***Error 1***
+**Error 1**
 Command: show-snps nucmer.delta -T -l > nucmer.snps
 
 double free or corruption (!prev)
@@ -10,7 +10,7 @@ Reason: Check if the fasta file is correct
 
 For me I was missing **fasta header (>)** in one sequence 
 
-***Error 2***
+**Error 2**
 
 Command: nucmer --forward -p nucmer $ref $input
 

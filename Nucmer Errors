@@ -1,9 +1,26 @@
+This is an error from Nucmer v3.1 
+
+***Error 1***
 Command: show-snps nucmer.delta -T -l > nucmer.snps
 
-Error:
 double free or corruption (!prev)
 Aborted (core dumped)
 
 Reason: Check if the fasta file is correct
 
 For me I was missing **fasta header (>)** in one sequence 
+
+***Error 2***
+
+Command: nucmer --forward -p nucmer $ref $input
+
+1: PREPARING DATA
+
+USAGE: /usr/lib/mummer/prenuc  [options]  <reference>
+
+Try '/usr/lib/mummer/prenuc -h' for more information.
+ERROR: prenuc returned non-zero
+
+To solve this error simply remove the spaces in your folder or file name
+Error: /Changed Folders/Arctic fox
+Error free: /Changed_Folders/Arctic_fox

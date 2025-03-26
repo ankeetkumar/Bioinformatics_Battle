@@ -1,0 +1,9 @@
+Command: show-snps nucmer.delta -T -l > nucmer.snps
+
+Error:
+double free or corruption (!prev)
+Aborted (core dumped)
+
+Reason: Check if the fasta file is correct
+
+For me I was missing **fasta header (>)** in one sequence 

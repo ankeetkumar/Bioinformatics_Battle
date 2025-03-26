@@ -1,0 +1,4 @@
+Error in .Call2("DNAStringSet_translate", x, skip_code, dna_codes[codon_alphabet],  : 
+  not a base at pos 4516
+
+There was a Y at this position (Y= C/T), but Biostrings::translate can not handle it. So I changed it to C
